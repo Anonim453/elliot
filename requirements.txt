@@ -1,0 +1,32 @@
+# ===== Elliot Voice Assistant - Dependencies =====
+# Полностью бесплатный стек
+
+# --- GUI ---
+PyQt6>=6.6.0
+
+# --- LLM (Google Gemini Free Tier) ---
+google-generativeai>=0.8.0
+
+# --- Конфигурация ---
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.1
+
+# --- Распознавание речи (STT) & VAD ---
+faster-whisper>=1.0.2
+silero-vad>=5.1.2
+torch>=2.2.0
+
+# --- Синтез речи (TTS) ---
+edge-tts>=6.1.10
+
+# --- Аудио ---
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.26.0
+
+# --- Системная интеграция Windows ---
+pycaw>=20240210
+comtypes>=1.4.1
+psutil>=5.9.8
+keyboard>=0.13.5
